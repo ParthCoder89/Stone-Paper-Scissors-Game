@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Game Name Section */
+
+.head-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 70px;
+    width: 100vw;
+}
+.head-con h1{
+    color: white;
+}
+
+/* Photo Section */
+
+.photo-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 250px;
+    gap: 60px;
+}
+.photo-con div img{
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+}
+.photo-con div img:hover{
+    opacity: 0.7;
+    border: 2px solid black;
+    transform: scale(1.2);
+}
+
+/* Score and player Section */
+
+.score-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    width: 100vw;
+    height: 80px;
+}
+.score-con div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.score-con div .score1,.score2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.score-con div .person1,.person2{
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+/* Display Section */
+
+.display-con{
+    margin-top: 60px ;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.display-con div{
+    background-color: black;
+    border-radius: 20px;
+}
+.display-con div p{
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2rem;
+    
+}
