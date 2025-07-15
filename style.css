@@ -13,6 +13,7 @@
     background-color: black;
     height: 70px;
     width: 100vw;
+    text-align: center;
 }
 .head-con h1{
     color: white;
@@ -26,11 +27,11 @@
     justify-content: center;
     width: 100vw;
     height: 250px;
-    gap: 60px;
+    gap: 55px;
 }
 .photo-con div img{
-    width: 100px;
-    height: 90px;
+    width: 95px;
+    height: 86px;
     border-radius: 50%;
 }
 .photo-con div img:hover{

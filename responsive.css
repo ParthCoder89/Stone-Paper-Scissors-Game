@@ -1,0 +1,15 @@
+@media (max-width: 425px){
+    .head-con{
+        height: 60px;
+    }
+    .head-con h1{
+        font-size: 1.6rem;
+        padding: 6px;
+    }
+    .photo-con{
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
